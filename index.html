@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jim's Waterloo Grocery Store</title>
+        <link rel="shortcut icon" href="images/logo.ico">
+        <link rel="stylesheet" href="styles/index.css">
+        <!--Google Font Added Here - Nato Sans-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+	    <script type="text/javascript">
+    	    $(document).ready(function(){
+			    $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	    });
+        </script>
+    </head>
+    <body>
+        <!--Header with image, h1 and h2 tag-->
+        <header>
+            <img src="images/grocery-logo.jpg" alt="Jim's Grocery Logo" height="125" title="Jim's Grocery Logo">
+            <h1>Jim's Waterloo Grocery Store</h1>
+            <h2>We got the fresh produce the city loves!</h2>
+        </header>
+        <!--Navigation Area-->
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="pages/products.html">Products</a>
+                    <ul>
+                        <li><a href="*">Fruits</a></li>
+                        <li><a href="*">Snacks</a>
+                        <ul>
+                            <li><a href="*">Chocolate</a></li>
+                            <li><a href="*">Gummies</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="lastitem"><a href="pages/subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
+        <!--Main with title, image, description and list-->
+        <main>
+            <h2>Welcome, we have the best produce in the city!</h2>
+            <img src="images/produce_section.jpg" alt="Produce Section" title="Produce Section"><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt esse sunt fugit itaque 
+                eligendi nihil a tempora vitae ipsa quidem enim cum natus. Totam, eligendi. Pariatur facere accusamus 
+                voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt esse sunt fugit itaque 
+                eligendi nihil a</p>
+            <h4>Why buy from us?</h4>
+            <ol>
+                <li>Our prices are cheap</li>
+                <li>Fresh produce that will last a long time</li>
+                <li>Friendly service that you can trust</li>
+            </ol>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt esse sunt fugit itaque 
+                eligendi nihil a tempora vitae ipsa quidem enim cum natus. Totam, eligendi. Pariatur facere accusamus 
+                voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt esse sunt fugit itaque 
+                eligendi nihil a tempora vitae ipsa quidem enim cum natus. Totam, eligendi. Pariatur facere accusamus 
+                voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nesciunt esse sunt fugit itaque 
+                eligendi nihil a tempora vitae ipsa quidem enim cum natus. Totam, eligendi. Pariatur facere accusamus 
+                voluptate.</p>
+        </main>
+        <!--Aside with links to the other pages-->
+        <aside>
+            <h3 id="asideTitle">More Pages to Visit!</h3>
+            <ul>
+                <li><a href="index.html" title="Home Page">Home</a></li>
+                <li><a href="pages/products.html" title="Products Page">Products</a></li>
+                <li><a href="pages/subscribe.html" title="Subscribe Page">Subscribe</a></li>
+            </ul>
+        </aside>
+        <br>
+        <!--Footer-->
+        <footer>
+            <p>&copy; Conestoga College Major Assignment 2 | 2021 | By: Tom Cieslukowski</p>
+        </footer>
+    </body>
+</html>
